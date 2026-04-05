@@ -1,0 +1,77 @@
+version: 2
+
+models:
+  - name: stg_airports
+    description: Staged airport data with renamed columns
+    columns:
+      - name: iata_code
+        description: Three-letter IATA airport code
+        tests:
+          - not_null
+          - unique
+      - name: airport_name
+        tests:
+          - not_null
+
+  - name: stg_airlines
+    description: Staged airline data with renamed columns
+    columns:
+      - name: airline_code
+        description: Two-letter IATA airline code
+        tests:
+          - not_null
+          - unique
+      - name: airline_name
+        tests:
+          - not_null
+
+  - name: stg_flights
+    description: Staged flight data with renamed columns
+    columns:
+      - name: flight_id
+        description: Unique identifier for each flight
+        tests:
+          - not_null
+          - unique
+      - name: airline_code
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_airlines')
+              field: airline_code
+      - name: origin_airport
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_airports')
+              field: iata_code
+      - name: destination_airport
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_airports')
+              field: iata_code
+
+  - name: dim_airport
+    description: Airport dimension with key attributes
+    columns:
+      - name: iata_code
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_airline
+    description: Airline dimension with key attributes
+    columns:
+      - name: airline_code
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_flights
+    description: Flight fact table joining flights with airline and airport dimensions
+    columns:
+      - name: flight_id
+        tests:
+          - not_null
+          - unique

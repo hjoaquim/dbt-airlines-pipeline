@@ -1,0 +1,17 @@
+[sqlfluff]
+dialect = postgres
+templater = jinja
+max_line_length = 120
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = lower
+
+[sqlfluff:rules:capitalisation.identifiers]
+capitalisation_policy = lower
+
+[sqlfluff:rules:aliasing.table]
+aliasing = explicit
+
+[sqlfluff:templater:jinja:macros]
+ref = {% macro ref(model_name) %}{{ model_name }}{% endmacro %}
+source = {% macro source(source_name, table_name) %}{{ source_name }}.{{ table_name }}{% endmacro %}

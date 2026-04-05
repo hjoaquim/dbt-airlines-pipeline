@@ -1,0 +1,50 @@
+iata_code,airport_name,city,state,country,latitude,longitude
+ATL,Hartsfield-Jackson Atlanta International,Atlanta,GA,US,33.6407,-84.4277
+LAX,Los Angeles International,Los Angeles,CA,US,33.9425,-118.4081
+ORD,O'Hare International,Chicago,IL,US,41.9742,-87.9073
+DFW,Dallas/Fort Worth International,Dallas,TX,US,32.8998,-97.0403
+DEN,Denver International,Denver,CO,US,39.8561,-104.6737
+JFK,John F. Kennedy International,New York,NY,US,40.6413,-73.7781
+SFO,San Francisco International,San Francisco,CA,US,37.6213,-122.3790
+SEA,Seattle-Tacoma International,Seattle,WA,US,47.4502,-122.3088
+LAS,Harry Reid International,Las Vegas,NV,US,36.0840,-115.1537
+MCO,Orlando International,Orlando,FL,US,28.4312,-81.3081
+EWR,Newark Liberty International,Newark,NJ,US,40.6895,-74.1745
+MSP,Minneapolis-Saint Paul International,Minneapolis,MN,US,44.8848,-93.2223
+BOS,Logan International,Boston,MA,US,42.3656,-71.0096
+DTW,Detroit Metropolitan Wayne County,Detroit,MI,US,42.2124,-83.3534
+PHL,Philadelphia International,Philadelphia,PA,US,39.8744,-75.2424
+LGA,LaGuardia,New York,NY,US,40.7769,-73.8740
+FLL,Fort Lauderdale-Hollywood International,Fort Lauderdale,FL,US,26.0726,-80.1527
+BWI,Baltimore/Washington International,Baltimore,MD,US,39.1754,-76.6683
+IAD,Washington Dulles International,Washington,DC,US,38.9531,-77.4565
+SLC,Salt Lake City International,Salt Lake City,UT,US,40.7884,-111.9778
+MDW,Chicago Midway International,Chicago,IL,US,41.7868,-87.7522
+IAH,George Bush Intercontinental,Houston,TX,US,29.9902,-95.3368
+SAN,San Diego International,San Diego,CA,US,32.7336,-117.1897
+TPA,Tampa International,Tampa,FL,US,27.9755,-82.5332
+PDX,Portland International,Portland,OR,US,45.5898,-122.5951
+HNL,Daniel K. Inouye International,Honolulu,HI,US,21.3187,-157.9224
+STL,St. Louis Lambert International,St. Louis,MO,US,38.7487,-90.3700
+BNA,Nashville International,Nashville,TN,US,36.1263,-86.6774
+AUS,Austin-Bergstrom International,Austin,TX,US,30.1975,-97.6664
+OAK,Oakland International,Oakland,CA,US,37.7213,-122.2208
+RDU,Raleigh-Durham International,Raleigh,NC,US,35.8801,-78.7880
+MCI,Kansas City International,Kansas City,MO,US,39.2976,-94.7139
+CLE,Cleveland Hopkins International,Cleveland,OH,US,41.4117,-81.8498
+SMF,Sacramento International,Sacramento,CA,US,38.6954,-121.5908
+SJC,San Jose International,San Jose,CA,US,37.3626,-121.9291
+PIT,Pittsburgh International,Pittsburgh,PA,US,40.4915,-80.2329
+IND,Indianapolis International,Indianapolis,IN,US,39.7173,-86.2944
+CVG,Cincinnati/Northern Kentucky International,Cincinnati,OH,US,39.0488,-84.6678
+CMH,John Glenn Columbus International,Columbus,OH,US,39.9980,-82.8919
+SAT,San Antonio International,San Antonio,TX,US,29.5337,-98.4698
+MKE,Milwaukee Mitchell International,Milwaukee,WI,US,42.9472,-87.8966
+JAX,Jacksonville International,Jacksonville,FL,US,30.4941,-81.6879
+OMA,Eppley Airfield,Omaha,NE,US,41.3032,-95.8941
+RIC,Richmond International,Richmond,VA,US,37.5052,-77.3197
+BUF,Buffalo Niagara International,Buffalo,NY,US,42.9405,-78.7322
+ABQ,Albuquerque International Sunport,Albuquerque,NM,US,35.0402,-106.6090
+TUS,Tucson International,Tucson,AZ,US,32.1161,-110.9410
+OKC,Will Rogers World,Oklahoma City,OK,US,35.3931,-97.6007
+MEM,Memphis International,Memphis,TN,US,35.0424,-89.9767
