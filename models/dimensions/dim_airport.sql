@@ -2,7 +2,7 @@ with airports as (
     select * from {{ ref('stg_airports') }}
 )
 
-SELECT 
+SELECT  
     iata_code,
     airport_name,
     city,
