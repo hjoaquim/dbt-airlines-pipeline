@@ -7,5 +7,6 @@ select
     airport_name,
     city,
     stat,
-    country
+    country,
+    country2
 from airports
